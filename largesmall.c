@@ -8,14 +8,7 @@ void main()
   {
 	scanf("%ld",&num[i]);
   }
-	large=num[0];
-	for(i=0;i<n;i++)
-	{
-		if(num[i]>large)
-    {
-			large=num[i];
-		}
-	}
+	
 	small=num[0];
 	for(i=0;i<n;i++)
 	{
@@ -23,6 +16,14 @@ void main()
 		{
 		small=num[i];
 	}
+	}
+	large=num[0];
+	for(i=0;i<n;i++)
+	{
+		if(num[i]>large)
+    {
+			large=num[i];
+		}
 	}
 	printf("%ld %ld",large,small);
 getch();
