@@ -25,6 +25,6 @@ void main()
 			large=num[i];
 		}
 	}
-	printf("%d %d",small,large);
+	printf("%ld %ld",large,small);
 getch();
 }
